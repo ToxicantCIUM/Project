@@ -1,0 +1,98 @@
+#reg_header{
+    height: 110px;
+    box-shadow: 5px 0 15px #cccccc;
+    /*box-shadow阴影  x方向偏移量 y方向偏移量 模糊程度 颜色*/
+}
+#reg_header .reg_h_center{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+#reg_header .reg_h_left{
+    height: 110px;
+    flex: 1px;
+}
+#reg_header .reg_h_right{
+    height: 110px;
+    flex: 1px;
+    text-align: right;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+#reg_header .reg_h_left img{
+    width: 160px;
+    height: 100px;
+    float: left;
+}
+#reg_header .reg_h_left h4{
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+    float: left;
+}
+#reg_header .reg_h_right a{
+    font-size: 15px;
+    color: #666666;
+    float: right;
+}
+
+#reg_header .reg_h_right span{
+    font-size: 15px;
+    color: #666666;
+    float: right;
+    margin-right: 10px;
+}
+#reg_content{
+    width: 1200px;
+    height: 700px;
+    margin: 20px auto;
+    display: flex;
+}
+#reg_content .reg_content_left{
+    flex: 2;
+}
+#reg_content .reg_content_right{
+    flex: 1;
+    border-left: 1px solid  #cccccc;
+    padding: 5px 0 0 50px;
+}
+#reg_content .reg_content_left form{
+    margin: 50px auto;
+    display: block;
+    width: 450px;
+}
+#reg_content .reg_content_left form div{
+    width: 439px;
+    height: 64px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    line-height: 64px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #666666;
+    position: relative;
+}
+#reg_content .reg_content_left form div:last-child{
+    border: none;
+    padding: 0;
+}
+#reg_content .reg_content_left form .submit_button input{
+    background: red;
+    width: 439px;
+    height: 44px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+#reg_content .reg_content_left .check_box img{
+    width: 108px;
+    height: 40px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+#reg_content .reg_content_left form input::-webkit-input-placeholder{
+    font-size: 14px;
+}

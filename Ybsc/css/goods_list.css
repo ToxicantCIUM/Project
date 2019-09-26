@@ -1,0 +1,47 @@
+#rm{
+    width: 1200px;
+    margin: 10px auto;
+}
+#rm .rm_top{
+    width: 1200px;
+    height: 44px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#rm .rm_top h3{
+    color: #ff242d;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 44px;
+}
+#rm .rm_body{
+    width: 1200px;
+
+}
+#rm .rm_body ul{
+    list-style: none;
+    overflow: hidden;/*清空浮动，没有清空浮动高度撑不起来*/
+}
+#rm .rm_body ul li{
+    width: 236px;
+    height: 315px;
+    background: white;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#rm .rm_body ul li:nth-child(5n){/*伪类选择器nth-child(xn)选择第xn个元素*/
+    margin-right: 0px;
+}
+#rm .rm_body img{
+    width: 220px;
+    height: 218px;
+    margin: 0 auto;
+    display: block;/*设置为块元素*/
+}
+#rm .rm_body p{
+    font-size: 13px;
+    padding: 10px 3px ;
+    margin: 5px;
+}
